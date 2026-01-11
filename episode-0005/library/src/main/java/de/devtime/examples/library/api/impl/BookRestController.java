@@ -9,9 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import de.devtime.examples.library.api.contract.EndpointConstants;
 import de.devtime.examples.library.api.contract.book.BookRegistrationDto;
-import de.devtime.examples.library.persistence.entity.BookEntity;
-import de.devtime.examples.library.persistence.repository.BookRepository;
-import jakarta.transaction.Transactional;
+import de.devtime.examples.library.businesslogic.BookService;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
@@ -20,22 +18,14 @@ import lombok.extern.slf4j.Slf4j;
 public class BookRestController {
 
   @Setter(onMethod_ = @Autowired)
-  private BookRepository bookRepo;
+  private BookService bookService;
 
   @PostMapping(EndpointConstants.PATH_BOOKS_REGISTRATION)
   @ResponseStatus(HttpStatus.CREATED)
-  @Transactional
   public void registerBook(@RequestBody final BookRegistrationDto registrationDto) {
     log.info("A book registration was requested with the following data: {}", registrationDto);
 
-    BookEntity bookToRegister = BookEntity.builder()
-        .withAuthor(registrationDto.getAuthor())
-        .withIsbn(registrationDto.getIsbn())
-        .withTitle(registrationDto.getTitle())
-        .withIsOnLoan(false)
-        .buildAndInit();
-
-    this.bookRepo.save(bookToRegister);
+    this.bookService.registerBook(registrationDto);
 
   }
 
