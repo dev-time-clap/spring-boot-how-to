@@ -1,0 +1,21 @@
+![dev|time Logo](/logo/dev-time-profil-logo-simple-128x128.png?raw=true "dev|time Logo")
+
+# Spring Boot - How-to
+
+In diesem Kurs stelle ich dir Spring Boot vor und wie du schnell zu einer eigenen kleinen Anwendung kommst.
+
+## YouTube Videokurs
+
+|Thema|Github Beispiel|Video|
+|-----|----------|---------|
+|Spring Initializr|🧩 [zum Code-Beispiel](https://github.com/dev-time-clap/spring-boot-how-to/tree/main/episode-0001-basic-project)|▶️ [zum Video](https://www.youtube.com/watch?v=nKW8owLfrUw&list=PLtIgRse9dGXge7XP9CClg9aLysZ5ZBLZd&index=1)|
+|Die pom.xml einfach erklärt|🧩 [zum Code-Beispiel](https://github.com/dev-time-clap/spring-boot-how-to/tree/main/episode-0002-pom.xml)|▶️ [zum Video](https://www.youtube.com/watch?v=nKW8owLfrUw&list=PLtIgRse9dGXge7XP9CClg9aLysZ5ZBLZd&index=2)|
+|REST - POST Endpunkt|🧩 [zum Code-Beispiel](https://github.com/dev-time-clap/spring-boot-how-to/tree/main/episode-0003-post-rest-endpoint)|▶️ [zum Video](https://www.youtube.com/watch?v=nKW8owLfrUw&list=PLtIgRse9dGXge7XP9CClg9aLysZ5ZBLZd&index=3)|
+|Respository, Entity & UUID v7|🧩 [zum Code-Beispiel](https://github.com/dev-time-clap/spring-boot-how-to/tree/main/episode-0004-entity-repository-uuidv7)|▶️ [zum Video](https://www.youtube.com/watch?v=nKW8owLfrUw&list=PLtIgRse9dGXge7XP9CClg9aLysZ5ZBLZd&index=4)|
+
+
+Lust auf mehr Lombok Infos?
+
+Dann abonnieren nicht vergessen!
+
+https://www.youtube.com/@dev-time-clap
