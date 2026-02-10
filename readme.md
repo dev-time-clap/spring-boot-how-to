@@ -14,6 +14,7 @@ In diesem Kurs stelle ich dir Spring Boot vor und wie du schnell zu einer eigene
 |Respository, Entity & UUID v7|🧩 [zum Code-Beispiel](https://github.com/dev-time-clap/spring-boot-how-to/tree/main/episode-0004-entity-repository-uuidv7)|▶️ [zum Video](https://www.youtube.com/watch?v=1MmrVYUHiKI&list=PLtIgRse9dGXge7XP9CClg9aLysZ5ZBLZd&index=4)|
 |@Service und Businesslogic|🧩 [zum Code-Beispiel](https://github.com/dev-time-clap/spring-boot-how-to/tree/main/episode-0005-services)|▶️ [zum Video](https://www.youtube.com/watch?v=QRoUSHrTAE&list=PLtIgRse9dGXge7XP9CClg9aLysZ5ZBLZd&index=5)|
 |Spring Events & @EventListener|🧩 [zum Code-Beispiel](https://github.com/dev-time-clap/spring-boot-how-to/tree/main/episode-0006-events)|▶️ [zum Video](https://www.youtube.com/watch?v=t_3F6tVNxIY&list=PLtIgRse9dGXge7XP9CClg9aLysZ5ZBLZd&index=6)|
+|Spring Transaction Handling mit @Transactional|🧩 [zum Code-Beispiel](https://github.com/dev-time-clap/spring-boot-how-to/tree/main/episode-0007-transaction-handling)|▶️ [zum Video](https://www.youtube.com/watch?v=DPaTb4jF6Pw&list=PLtIgRse9dGXge7XP9CClg9aLysZ5ZBLZd&index=7)|
 
 
 Lust auf mehr Spring Boot?
